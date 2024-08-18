@@ -1,0 +1,90 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background: gainsboro;
+}
+header:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: rgb(109, 183, 207);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: gainsboro;
+    margin-top: 10px;
+}
+footer:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: rgb(123, 185, 60);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+
+}
+.navigation{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background: gainsboro;
+}
+.navigation:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: rgb(77, 215, 219);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.left{
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+}
+.left:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: rgb(226, 117, 74);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+
+}
+.right{
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+}
+.right:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background: rgb(226, 117, 74);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+}
+main{
+    width: 59%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+}
+main:hover{
+    transform:translateY(-10px);
+    transition: 0.5s;
+    background: rgb(170, 74, 226);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+}
